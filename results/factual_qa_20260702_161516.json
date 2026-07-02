@@ -1,0 +1,122 @@
+{
+  "eval_file": "evals/factual_qa.jsonl",
+  "model": "qwen2.5vl:latest",
+  "timestamp": "2026-07-02T16:15:16.865302",
+  "total": 10,
+  "correct": 10,
+  "accuracy": 1.0,
+  "by_category": {
+    "geography": {
+      "passed": 2,
+      "total": 2
+    },
+    "science": {
+      "passed": 4,
+      "total": 4
+    },
+    "math": {
+      "passed": 2,
+      "total": 2
+    },
+    "literature": {
+      "passed": 1,
+      "total": 1
+    },
+    "history": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "id": "fqa_01",
+      "question": "What is the capital of France?",
+      "expected": "Paris",
+      "model_answer": "Paris",
+      "passed": true,
+      "method": "exact_match",
+      "category": "geography"
+    },
+    {
+      "id": "fqa_02",
+      "question": "What is the chemical symbol for gold?",
+      "expected": "Au",
+      "model_answer": "Au",
+      "passed": true,
+      "method": "exact_match",
+      "category": "science"
+    },
+    {
+      "id": "fqa_03",
+      "question": "How many sides does a hexagon have?",
+      "expected": "6",
+      "model_answer": "6",
+      "passed": true,
+      "method": "exact_match",
+      "category": "math"
+    },
+    {
+      "id": "fqa_04",
+      "question": "Who wrote Romeo and Juliet?",
+      "expected": "Shakespeare",
+      "model_answer": "William Shakespeare",
+      "passed": true,
+      "method": "contains_match",
+      "category": "literature"
+    },
+    {
+      "id": "fqa_05",
+      "question": "What is the boiling point of water in Celsius?",
+      "expected": "100",
+      "model_answer": "100",
+      "passed": true,
+      "method": "exact_match",
+      "category": "science"
+    },
+    {
+      "id": "fqa_06",
+      "question": "What planet is closest to the sun?",
+      "expected": "Mercury",
+      "model_answer": "Mercury",
+      "passed": true,
+      "method": "exact_match",
+      "category": "science"
+    },
+    {
+      "id": "fqa_07",
+      "question": "In what year did World War II end?",
+      "expected": "1945",
+      "model_answer": "1945",
+      "passed": true,
+      "method": "exact_match",
+      "category": "history"
+    },
+    {
+      "id": "fqa_08",
+      "question": "What is the largest ocean on Earth?",
+      "expected": "Pacific",
+      "model_answer": "Pacific",
+      "passed": true,
+      "method": "exact_match",
+      "category": "geography"
+    },
+    {
+      "id": "fqa_09",
+      "question": "How many bones are in the adult human body?",
+      "expected": "206",
+      "model_answer": "206",
+      "passed": true,
+      "method": "exact_match",
+      "category": "science"
+    },
+    {
+      "id": "fqa_10",
+      "question": "What is the square root of 144?",
+      "expected": "12",
+      "model_answer": "12",
+      "passed": true,
+      "method": "exact_match",
+      "category": "math"
+    }
+  ]
+}

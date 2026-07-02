@@ -1,0 +1,6 @@
+OLLAMA_BASE_URL  = "http://10.22.39.192:11434"
+GENERATION_MODEL = "qwen2.5vl:latest"
+REQUEST_TIMEOUT  = 120
+
+RESULTS_DIR = "results"
+EVALS_DIR   = "evals"

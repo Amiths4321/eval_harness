@@ -1,0 +1,8 @@
+{"id": "math_01", "question": "If a train travels 60 miles per hour for 2.5 hours, how many miles does it travel? Answer with just the number.", "expected": "150", "category": "arithmetic"}
+{"id": "math_02", "question": "What is 15% of 200? Answer with just the number.", "expected": "30", "category": "percentage"}
+{"id": "math_03", "question": "A rectangle has a width of 4 and a height of 7. What is its area? Answer with just the number.", "expected": "28", "category": "geometry"}
+{"id": "math_04", "question": "If you have 3 groups of 8 apples and remove 5, how many apples remain? Answer with just the number.", "expected": "19", "category": "arithmetic"}
+{"id": "math_05", "question": "What is 2 to the power of 8? Answer with just the number.", "expected": "256", "category": "arithmetic"}
+{"id": "math_06", "question": "A shop sells an item for $45. It was originally $60. What is the percentage discount? Answer with just the number.", "expected": "25", "category": "percentage"}
+{"id": "math_07", "question": "If a pizza is cut into 8 equal slices and you eat 3, what fraction remains? Answer as a fraction like 5/8.", "expected": "5/8", "category": "fractions"}
+{"id": "math_08", "question": "What is the perimeter of a square with side length 9? Answer with just the number.", "expected": "36", "category": "geometry"}
